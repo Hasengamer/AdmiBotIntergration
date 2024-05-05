@@ -1,19 +1,21 @@
-# AdmiBotIntergration 🤖
-The source code of the AdmiBot Integration Plugin.
+# AdmiBotIntegration Plugin
 
-# Information ℹ️ 
-Here you can find Exactly What our plugin does to integrate your minecraft server with our API
+## About ℹ️ 
 
-# Comming Soon 🔜 
-AdmiBotIntergration API.
+Discover the functionality of our plugin, designed to seamlessly integrate your Minecraft server with our API.
 
-# Contributors 👥
+## Coming Soon 🔜 
+
+Stay tuned for the release of the AdmiBotIntegration API.
+
+## Contributors 👥
+
 - ShuProjects
 - Hasen
 - KINGJON
 
-# Links 🖇️ 
+## Links 🖇️ 
 
 - Plugin SpigotMC Page:
-  https://www.spigotmc.org/resources/admibotintegration.116586/
-
+  [AdmiBotIntegration](https://www.spigotmc.org/resources/admibotintegration.116586/)
+  
