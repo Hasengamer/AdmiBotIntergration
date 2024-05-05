@@ -15,5 +15,5 @@ AdmiBotIntergration API.
 # Links 🖇️ 
 
 - Plugin SpigotMC Page:
-  (Click Here)[https://www.spigotmc.org/resources/admibotintegration.116586/]
+  https://www.spigotmc.org/resources/admibotintegration.116586/
 
