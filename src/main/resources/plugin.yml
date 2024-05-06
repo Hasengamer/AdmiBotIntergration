@@ -1,0 +1,14 @@
+name: AdmiBotDiscordLink
+version: '${project.version}'
+main: org.admibotdiscordlink.AdmiBotDiscordLink
+authors: [Hasen, Kingjon, ShuProjects]
+api-version: '1.20'
+commands:
+  checkstatus:
+    description: Checks the status
+    aliases:
+      - status
+  guide:
+    description: AdmiBot Guide Book
+    aliases:
+      - guidebook
