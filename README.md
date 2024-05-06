@@ -14,7 +14,7 @@ Discover the functionality of our plugin, designed to seamlessly integrate your 
 
 # Extra Features 🌟
 
-- Even if the Server is Offline, when its back online, all pending actions will execute
+- Even if the Server was Offline, when its back online, all pending actions will execute
 
 ## Coming Soon 🔜 
 
