@@ -1,4 +1,4 @@
-# AdmiBotIntegration Plugin
+# AdmiBotIntegration Plugin 🌐
 
 ## About ℹ️ 
 
