@@ -34,8 +34,24 @@ public class EssentialsCommands implements CommandExecutor {
             if (commandSender instanceof Player) {
                 Player p = (Player) commandSender;
                 p.sendMessage(ColorUtil.translateMessage("&b&lAdmiBot Guide Book&b\n" +
-                        "&bSend commands in your own commands channel to execute commands\n" +
-                        "&busing our bot as equal as if you're using the console but in Discord!"));
+                        "&bWelcome to AdmiBot! This guide will help you use our bot efficiently.\n" +
+                        "&b\n" +
+                        "&b1. Using Commands:\n" +
+                        "&7- Send commands in your own commands channel to execute them.\n" +
+                        "&7- Use commands just like you would in the console, but in Discord!\n" +
+                        "&7- Prefix your commands with the designated command prefix.\n" +
+                        "&b\n" +
+                        "&b2. Available Features:\n" +
+                        "&7- Use various commands to manage your server remotely.\n" +
+                        "&7- Get Server Information, broadcast messages, execute server commands, and more!\n" +
+                        "&7- Explore the commands list for a full range of capabilities.\n" +
+                        "&b\n" +
+                        "&b3. Bot ChatLink Feature:\n" +
+                        "&7- Create a dedicated channel for bot to Link your Minecraft server Chat to Discord!\n" +
+                        "&7- It also supports Getting messages from discord channel and linking them to your Minecraft Server\n" +
+                        "&b\n" +
+                        "&bStart using AdmiBot today and enhance your server management experience!"
+                ));
             } else {
                 commandSender.sendMessage("Only can be executed by players.");
             }
