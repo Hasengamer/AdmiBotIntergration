@@ -6,7 +6,7 @@ Discover the functionality of our plugin, designed to seamlessly integrate your 
 
 # Functionalities 🪄
 
-- (Try to) Execute console commands
+- Execute console commands
 - Shutdown the server
 - See Server status
 - Check online Players
