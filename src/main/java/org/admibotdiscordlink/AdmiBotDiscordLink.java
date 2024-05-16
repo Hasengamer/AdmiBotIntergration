@@ -38,7 +38,17 @@ public class AdmiBotDiscordLink extends JavaPlugin {
         new BukkitRunnable() {
             @Override
             public void run() {
-                checkForCommandsAndInfo();
+                executorService.submit(() -> {
+            try {
+                Logger logger = getLogger();
+                ActionProcessor = new ActionsChecker(uniqueKey, logger);
+                // start the Actions Checker
+                ActionProcessor.checkForCommands();
+                ServerInfoProcessor = new ServerInfoSender(uniqueKey);
+                ServerInfoProcessor.sendServerInfo();
+
+            } catch (Exception ignored) {}
+        });
 
 
             }
@@ -80,17 +90,5 @@ public class AdmiBotDiscordLink extends JavaPlugin {
         getLogger().info(message);
     }
 
-    private void checkForCommandsAndInfo() {
-        executorService.submit(() -> {
-            try {
-                Logger logger = getLogger();
-                ActionProcessor = new ActionsChecker(uniqueKey, logger);
-                // start the Actions Checker
-                ActionProcessor.checkForCommands();
-                ServerInfoProcessor = new ServerInfoSender(uniqueKey);
-                ServerInfoProcessor.sendServerInfo();
-
-            } catch (Exception ignored) {}
-        });
-    }
+   
 }
