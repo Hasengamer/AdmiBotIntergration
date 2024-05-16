@@ -50,7 +50,7 @@ public class EssentialsCommands implements CommandExecutor {
                         "&7- Create a dedicated channel for bot to Link your Minecraft server Chat to Discord!\n" +
                         "&7- It also supports Getting messages from discord channel and linking them to your Minecraft Server\n" +
                         "&b\n" +
-                        "&bStart using AdmiBot today and enhance your server management experience!"
+                        "&bStart using AdmiBot today and enhance your server management experience if you haven't already!"
                 ));
             } else {
                 commandSender.sendMessage("Only can be executed by players.");
