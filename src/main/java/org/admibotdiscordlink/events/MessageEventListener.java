@@ -26,7 +26,7 @@ public class MessageEventListener implements Listener {
         String playerName = player.getName();
         String message = event.getMessage();
 
-        // Process the chat event locally (send chat message to players)
+ 
 
         // Retrieve uniqueKey from config.yml
         FileConfiguration config = plugin.getConfig();
